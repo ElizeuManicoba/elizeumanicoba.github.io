@@ -5,25 +5,29 @@ date: 2026-09-19
 type: landing
 
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     id: home
     content:
       username: me
       text: ''
+      headings:
+        about: Perfil
+        education: Formação
+        interests: Interesses
     design:
       show_status: false
+      name:
+        size: sm
       avatar:
         size: medium
-        shape: rounded
+        shape: circle
 
   - block: markdown
     id: ensino
     content:
       title: Ensino e pesquisa
       text: |-
-        Leciono **Estatística, Matemática e Matemática Financeira** com uma preocupação central: o aluno precisa compreender a lógica antes de repetir procedimentos. As páginas de cada disciplina serão o ponto de acesso para ementas, materiais e futuras atividades.
-
-        A pesquisa aparece dentro desta mesma frente, sem virar uma gaveta separada. Meus interesses incluem **economia do desenvolvimento, demografia econômica e vulnerabilidade financeira**, com espaço preparado para publicações e para a continuidade da trajetória acadêmica.
+        Disciplinas, materiais de aula e linhas de pesquisa em **economia do desenvolvimento** e **demografia econômica**.
 
         [Conheça as disciplinas e as linhas de pesquisa →](/ensino/)
     design:
@@ -34,9 +38,7 @@ sections:
     content:
       title: Atuação financeira
       text: |-
-        Minha abordagem parte de **evidence-based investing** e **evidence-based financial planning**. Isso significa começar por objetivos, restrições e evidências — e não por produtos.
-
-        O trabalho é estruturado com transparência de remuneração, preferência por relações **fee-based** e uso de **Investment Policy Statement (IPS)** para registrar critérios, limites de risco e regras de decisão. O resultado esperado não é uma promessa de retorno: é um processo mais consistente, auditável e alinhado ao cliente.
+        Planejamento e assessoria orientados por evidências, com transparência, abordagem **fee-based** e uso de **Investment Policy Statement (IPS)**.
 
         [Veja como funciona e fale comigo →](/atuacao/)
     design:
