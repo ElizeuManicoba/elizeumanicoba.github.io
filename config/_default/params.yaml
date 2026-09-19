@@ -44,8 +44,8 @@ hugoblox:
     theme_toggle: false
     theme_picker: false
     language_switcher: false
-    show_logo: false
-    show_title: true
+    show_logo: true
+    show_title: false
     cta:
       enable: false
 
