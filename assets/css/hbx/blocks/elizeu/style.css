@@ -1,0 +1,138 @@
+/* Identidade visual: sóbria, clara e sem efeitos de landing page. */
+:root {
+  --elizeu-accent: #405a66;
+  --elizeu-ink: #1c1917;
+  --elizeu-muted: #57534e;
+  --elizeu-line: #e7e5e4;
+  --elizeu-surface: #fafaf9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+.page-header {
+  border-bottom: 1px solid color-mix(in srgb, var(--elizeu-line) 82%, transparent);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  letter-spacing: -0.025em;
+}
+
+.resume-biography {
+  padding-top: clamp(3rem, 7vw, 6rem);
+  padding-bottom: clamp(3rem, 7vw, 6rem);
+}
+
+.resume-biography .bio-text {
+  max-width: 54rem;
+  color: var(--elizeu-muted);
+}
+
+.resume-biography .avatar {
+  border: 1px solid var(--elizeu-line);
+  box-shadow: none;
+}
+
+[role='article'] {
+  border: 1px solid var(--elizeu-line) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: none !important;
+}
+
+[role='article']:hover {
+  transform: none !important;
+  border-color: color-mix(in srgb, var(--elizeu-accent) 45%, var(--elizeu-line)) !important;
+  box-shadow: 0 12px 30px rgba(28, 25, 23, 0.06) !important;
+}
+
+#contato {
+  border-top: 1px solid var(--elizeu-line);
+  border-bottom: 1px solid var(--elizeu-line);
+  background: var(--elizeu-surface);
+}
+
+#contato .prose a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+  padding: 0.8rem 1.25rem;
+  border: 1px solid var(--elizeu-accent);
+  border-radius: 0.4rem;
+  background: var(--elizeu-accent);
+  color: #fff;
+  font-weight: 650;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+#contato .prose a:hover {
+  background: transparent;
+  color: var(--elizeu-accent);
+}
+
+.veja-tambem {
+  margin-top: 3.5rem;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--elizeu-line);
+  border-left: 4px solid var(--elizeu-accent);
+  border-radius: 0.5rem;
+  background: var(--elizeu-surface);
+}
+
+.veja-tambem__kicker {
+  margin: 0 0 0.35rem;
+  color: var(--elizeu-accent);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.veja-tambem h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.veja-tambem h2 a {
+  color: var(--elizeu-ink);
+  text-decoration: none;
+}
+
+.veja-tambem h2 a:hover {
+  color: var(--elizeu-accent);
+}
+
+.veja-tambem p:last-child {
+  margin: 0.55rem 0 0;
+  color: var(--elizeu-muted);
+}
+
+.page-footer {
+  border-top: 1px solid var(--elizeu-line);
+  background: var(--elizeu-surface);
+}
+
+.page-footer footer {
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

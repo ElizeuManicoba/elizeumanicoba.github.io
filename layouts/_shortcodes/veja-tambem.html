@@ -1,0 +1,9 @@
+{{- $area := .Get "area" -}}
+{{- $titulo := .Get "titulo" -}}
+{{- $url := .Get "url" -}}
+{{- $texto := .Get "texto" -}}
+<aside class="veja-tambem" aria-labelledby="veja-tambem-{{ .Ordinal }}">
+  <p class="veja-tambem__kicker">Veja também · {{ $area }}</p>
+  <h2 id="veja-tambem-{{ .Ordinal }}"><a href="{{ $url | relURL }}">{{ $titulo }}</a></h2>
+  {{ with $texto }}<p>{{ . }}</p>{{ end }}
+</aside>

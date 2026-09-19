@@ -1,0 +1,24 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Ensino
+    url: /ensino/
+    weight: 20
+  - name: Atuação
+    url: /atuacao/
+    weight: 30
+  - name: Blog/Artigos
+    url: /blog/
+    weight: 40
+
+footer:
+  - name: Ensino
+    url: /ensino/
+    weight: 10
+  - name: Atuação
+    url: /atuacao/
+    weight: 20
+  - name: Blog
+    url: /blog/
+    weight: 30

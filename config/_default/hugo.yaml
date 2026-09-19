@@ -1,0 +1,59 @@
+# Configuração principal do Hugo.
+title: 'Elizeu Maniçoba'
+baseURL: 'https://elizeumanicoba.github.io/'
+
+defaultContentLanguage: pt
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+build:
+  writeStats: true
+
+enableGitInfo: false
+summaryLength: 32
+pagination:
+  pagerSize: 12
+enableEmoji: true
+enableRobotsTXT: true
+disableAliases: true
+
+outputs:
+  home: [HTML, RSS, headers, redirects, backlinks]
+  section: [HTML, RSS]
+
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+
+timeout: 600000
+
+taxonomies:
+  author: authors
+  category: categories
+  tag: tags
+
+related:
+  includeNewer: true
+  threshold: 20
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 80
+
+markup:
+  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: false
+
+security:
+  _merge: deep
+sitemap:
+  _merge: deep

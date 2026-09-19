@@ -1,0 +1,112 @@
+hugoblox:
+  schema: '2.0'
+
+  identity:
+    name: 'Elizeu Maniçoba'
+    organization: 'Elizeu Maniçoba'
+    type: person
+    tagline: 'Economista, professor universitário e assessor de investimentos CFP®.'
+    description: 'Site acadêmico-profissional de Elizeu Maniçoba: ensino, pesquisa, planejamento financeiro e artigos.'
+    social:
+      twitter: ''
+
+  theme:
+    mode: light
+    pack: minimal
+    colors:
+      primary: '#405A66'
+      secondary: '#6B6257'
+      neutral: stone
+    surfaces:
+      background: '#FFFFFF'
+      foreground: '#1C1917'
+      header:
+        background: '#FFFFFF'
+        foreground: '#1C1917'
+      footer:
+        background: '#FAFAF9'
+        foreground: '#57534E'
+
+  typography:
+    pack: modern
+
+  layout:
+    radius: sm
+    spacing: spacious
+    avatar_shape: rounded
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: right
+    search: true
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
+    show_logo: false
+    show_title: true
+    cta:
+      enable: false
+
+  footer:
+    style: minimal
+    language_switcher: false
+    show_social: false
+    text: |-
+      **Elizeu Maniçoba**
+
+      Economista, professor universitário e assessor de investimentos CFP®.
+
+  copyright:
+    notice: '© {year} {name}. Todos os direitos reservados.'
+    license:
+      type: custom
+      label: ''
+      url: ''
+
+  seo:
+    title: 'Elizeu Maniçoba — Economia, ensino e planejamento financeiro'
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: 'Conteúdo público para fins educacionais e profissionais.'
+      contact: 'elizeumanicoba@outlook.com.br'
+
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
+
+  search:
+    enable: true
+    suggestions:
+      - Estatística
+      - Matemática financeira
+      - Planejamento financeiro
+      - IPS
+    quick_actions: []
+
+  comments:
+    enable: false
+
+  analytics:
+    google:
+      measurement_id: ''
+
+  repository:
+    enable: true
+    url: 'https://github.com/ElizeuManicoba/elizeumanicoba.github.io'
+    branch: main
+    content_dir: content
+
+  locale:
+    date_format: '02/01/2006'
+    time_format: '15:04'
+    address_format: pt-br
