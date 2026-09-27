@@ -47,7 +47,7 @@ sections:
 
         **Publicações**
 
-        Espaço reservado para artigos, working papers, apresentações e materiais de pesquisa futuros, já organizado para acompanhar uma trajetória de doutorado.
+        A produção acadêmica tem [página própria](/publicacoes/), já estruturada para acompanhar uma trajetória de doutorado.
     design:
       columns: '1'
 ---

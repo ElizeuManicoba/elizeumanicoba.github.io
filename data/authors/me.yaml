@@ -27,8 +27,6 @@ bio: |
 affiliations:
   - name: Centro Universitário do Rio Grande do Norte (UNI-RN)
     url: https://unirn.edu.br/
-  - name: Universidade Federal do Rio Grande do Norte — formação acadêmica
-    url: https://www.ufrn.br/
 
 links:
   - icon: at-symbol
@@ -40,6 +38,9 @@ links:
   - icon: document-text
     url: 'PENDENTE-ARQUIVO-CV'
     label: CV
+  - icon: book-open
+    url: /publicacoes/
+    label: Publicações
 
 interests:
   - Economia do desenvolvimento
