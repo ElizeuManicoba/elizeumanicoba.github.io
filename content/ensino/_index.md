@@ -18,6 +18,7 @@ sections:
     id: disciplinas
     content:
       title: Disciplinas
+      count: 12
       filters:
         folders:
           - ensino

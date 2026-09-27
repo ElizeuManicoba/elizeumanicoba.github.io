@@ -17,4 +17,4 @@ Na cobrança fee-based, o preço do serviço aparece de forma explícita e tende
 
 O avanço real ocorre quando remuneração, processo e prestação de contas apontam na mesma direção. Custo precisa ser discutido junto com escopo, complexidade e valor entregue, sem esconder que toda relação econômica contém incentivos.
 
-{{< veja-tambem area="Ensino" titulo="Matemática" url="/ensino/matematica/" texto="Veja uma base para analisar relações, proporções e efeitos de diferentes estruturas de custo." >}}
+{{< veja-tambem area="Ensino" titulo="Administração Financeira" url="/ensino/administracao-financeira/" texto="Veja uma base para analisar como diferentes estruturas de custo e remuneração afetam decisões financeiras." >}}
