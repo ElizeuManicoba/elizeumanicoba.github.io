@@ -1,16 +1,28 @@
 main:
-  - name: Home
-    url: /
-    weight: 10
   - name: Ensino
     url: /ensino/
-    weight: 20
+    weight: 10
+  - identifier: ensino-estatistica
+    name: Estatística
+    url: /ensino/estatistica/
+    parent: Ensino
+    weight: 1
+  - identifier: ensino-matematica
+    name: Matemática
+    url: /ensino/matematica/
+    parent: Ensino
+    weight: 2
+  - identifier: ensino-matematica-financeira
+    name: Matemática Financeira
+    url: /ensino/matematica-financeira/
+    parent: Ensino
+    weight: 3
   - name: Atuação
     url: /atuacao/
-    weight: 30
-  - name: Blog/Artigos
+    weight: 20
+  - name: Blog
     url: /blog/
-    weight: 40
+    weight: 30
 
 footer:
   - name: Ensino

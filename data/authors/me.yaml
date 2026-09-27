@@ -13,30 +13,31 @@ name:
 postnominals:
   - CFP®
 
-role: Economista · Professor universitário · Assessor de investimentos CFP®
+role: Economista · Professor universitário · Planejador Financeiro CFP®
 
 bio: |
   Sou economista pela Universidade Federal do Rio Grande do Norte (UFRN) e mestre em Administração, com ênfase em Finanças, também pela UFRN. Minha formação combina análise econômica, métodos quantitativos e interesse por decisões tomadas sob incerteza.
 
   Como professor universitário, trabalho principalmente com Estatística, Matemática e Matemática Financeira. Procuro transformar conceitos abstratos em raciocínios verificáveis, exemplos concretos e ferramentas que o estudante consiga usar de forma autônoma.
 
-  Na atuação profissional, sou assessor de investimentos certificado CFP® e vinculado à XP Investimentos. Meu foco é planejamento financeiro orientado por evidências, alinhamento de incentivos e construção de decisões coerentes com objetivos, riscos e horizonte de cada pessoa.
+  Como Planejador Financeiro certificado CFP®, meu interesse é planejamento financeiro orientado por evidências e construção de decisões coerentes com objetivos, riscos e horizonte de cada pessoa.
 
-  Ensino, pesquisa e assessoria não são frentes dispersas. Nas três, a disciplina é a mesma: questionar premissas, verificar dados, fundamentar escolhas e traduzir rigor técnico em algo compreensível e útil.
+  Ensino, pesquisa e planejamento financeiro não são frentes dispersas. Nas três, a disciplina é a mesma: questionar premissas, verificar dados, fundamentar escolhas e traduzir rigor técnico em algo compreensível e útil.
 
 affiliations:
   - name: Universidade Federal do Rio Grande do Norte — formação acadêmica
     url: https://www.ufrn.br/
-  - name: XP Investimentos — atuação profissional
-    url: https://www.xpi.com.br/
 
 links:
   - icon: at-symbol
     url: mailto:elizeumanicoba@outlook.com.br
     label: E-mail
-  - icon: brands/github
-    url: https://github.com/ElizeuManicoba
-    label: GitHub
+  - icon: brands/linkedin
+    url: 'PENDENTE-LINK-LINKEDIN'
+    label: LinkedIn
+  - icon: document-text
+    url: 'PENDENTE-ARQUIVO-CV'
+    label: CV
 
 interests:
   - Economia do desenvolvimento

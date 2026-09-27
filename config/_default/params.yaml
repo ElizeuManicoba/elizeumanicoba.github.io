@@ -5,7 +5,7 @@ hugoblox:
     name: 'Elizeu Maniçoba'
     organization: 'Elizeu Maniçoba'
     type: person
-    tagline: 'Economista, professor universitário e assessor de investimentos CFP®.'
+    tagline: 'Economista · Professor universitário · Planejador Financeiro CFP®.'
     description: 'Site acadêmico-profissional de Elizeu Maniçoba: ensino, pesquisa, planejamento financeiro e artigos.'
     social:
       twitter: ''
@@ -14,21 +14,21 @@ hugoblox:
     mode: light
     pack: minimal
     colors:
-      primary: '#405A66'
-      secondary: '#6B6257'
-      neutral: stone
+      primary: '#1B3A4B'
+      secondary: '#B08D57'
+      neutral: zinc
     surfaces:
       background: '#FFFFFF'
-      foreground: '#1C1917'
+      foreground: '#18181B'
       header:
         background: '#FFFFFF'
-        foreground: '#1C1917'
+        foreground: '#18181B'
       footer:
-        background: '#FAFAF9'
-        foreground: '#57534E'
+        background: '#FAFAFA'
+        foreground: '#52525B'
 
   typography:
-    pack: modern
+    pack: geometric
 
   layout:
     radius: sm
@@ -56,7 +56,7 @@ hugoblox:
     text: |-
       **Elizeu Maniçoba**
 
-      Economista, professor universitário e assessor de investimentos CFP®.
+      Economista · Professor universitário · Planejador Financeiro CFP®.
 
   copyright:
     notice: '© {year} {name}. Todos os direitos reservados.'
