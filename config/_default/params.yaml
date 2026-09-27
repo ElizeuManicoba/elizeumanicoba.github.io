@@ -5,7 +5,7 @@ hugoblox:
     name: 'Elizeu Maniçoba'
     organization: 'Elizeu Maniçoba'
     type: person
-    tagline: 'Economista · Professor universitário · Planejador Financeiro CFP®.'
+    tagline: 'Professor Universitário · Economista e Planejador Financeiro CFP®.'
     description: 'Site acadêmico-profissional de Elizeu Maniçoba: ensino, pesquisa, planejamento financeiro e artigos.'
     social:
       twitter: ''
@@ -56,7 +56,7 @@ hugoblox:
     text: |-
       **Elizeu Maniçoba**
 
-      Economista · Professor universitário · Planejador Financeiro CFP®.
+      Professor Universitário · Economista e Planejador Financeiro CFP®.
 
   copyright:
     notice: '© {year} {name}. Todos os direitos reservados.'
