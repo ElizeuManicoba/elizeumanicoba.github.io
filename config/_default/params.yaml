@@ -45,7 +45,7 @@ hugoblox:
     theme_picker: false
     language_switcher: false
     show_logo: true
-    show_title: false
+    show_title: true
     cta:
       enable: false
 
