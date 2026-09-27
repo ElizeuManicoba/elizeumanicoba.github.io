@@ -1,6 +1,6 @@
 # Configuração principal do Hugo.
 title: 'Elizeu Maniçoba'
-baseURL: 'https://elizeumanicoba.github.io/'
+baseURL: 'https://elizeumanicoba.com.br/'
 
 defaultContentLanguage: pt
 hasCJKLanguage: false

@@ -49,7 +49,7 @@ jobs:
       - name: Build site
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify --baseURL 'https://elizeumanicoba.github.io/'
+        run: hugo --gc --minify --baseURL 'https://elizeumanicoba.com.br/'
 
       - name: Build search index
         run: pnpm run pagefind
@@ -62,4 +62,5 @@ jobs:
           publish_branch: master
           force_orphan: true
           enable_jekyll: false
+          cname: elizeumanicoba.com.br
           commit_message: 'deploy: ${{ github.sha }}'
