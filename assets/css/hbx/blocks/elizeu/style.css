@@ -187,3 +187,20 @@ section[id] {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Tabelas dos textos: rolam na horizontal em telas estreitas (ver layouts/_markup/render-table.html). */
+.tabela-rolavel {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.tabela-rolavel table {
+  margin: 0;
+}
+
+/* Linha "Fonte: ..." logo abaixo de tabelas e figuras. */
+.prose p:has(> small:only-child) {
+  margin-top: 0.5rem;
+  color: var(--elizeu-muted);
+}
