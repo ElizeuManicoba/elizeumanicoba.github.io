@@ -9,7 +9,8 @@ show_date: false
 show_date_updated: false
 draft: false
 image:
-  preview_only: true
+  alt_text: 'Pessoa caminhando por uma estrada reta e estreita em direção a uma porta iluminada no horizonte, em uma paisagem azul-marinho e areia'
+  preview_only: false
 ---
 
 *Os benefícios absurdos de agir conforme aquilo em que você acredita*
