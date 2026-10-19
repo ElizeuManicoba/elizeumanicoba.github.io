@@ -27,15 +27,16 @@ sections:
     content:
       title: Textos recentes
       text: 'Ensino, atuação profissional e temas gerais em um único feed.'
-      count: 5
+      count: 3
       filters:
         folders:
           - blog
         exclude_future: true
       order: desc
     design:
-      view: date-title-summary
-      columns: 1
+      view: article-grid
+      columns: 3
+      fill_image: true
       show_date: true
       show_read_time: true
       show_read_more: false
